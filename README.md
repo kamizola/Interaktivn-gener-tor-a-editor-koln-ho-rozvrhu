@@ -1,0 +1,1 @@
+# Interaktivn-gener-tor-a-editor-koln-ho-rozvrhu
