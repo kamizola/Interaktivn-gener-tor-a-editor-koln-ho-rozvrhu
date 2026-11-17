@@ -1,13 +1,12 @@
-using SchoolTimetable.Forms;
-
-namespace SchoolTimetable;
-
-internal static class Program
+﻿namespace SchoolTimetable
 {
-    [STAThread]
-    private static void Main()
+    internal static class Program
     {
-        ApplicationConfiguration.Initialize();
-        Application.Run(new MainForm());
+        [STAThread]
+        static void Main()
+        {
+            ApplicationConfiguration.Initialize();
+            Application.Run(new HlavniOkno());
+        }
     }
 }
